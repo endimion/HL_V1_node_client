@@ -1,0 +1,16 @@
+{
+   "host":"172.17.0.1",
+   "port":"4000",
+   "jwt_expiretime": "36000",
+   "channelName":"mychannel",
+   "GOPATH":"artifacts",
+   "keyValueStore":"/tmp/fabric-client-kvs",
+   "eventWaitTime":"90000",
+   "orderer":"grpcs://172.17.0.1:7050",
+   "users":[
+      {
+         "username":"admin",
+         "secret":"adminpw"
+      }
+   ]
+}
